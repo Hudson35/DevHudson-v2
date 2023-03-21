@@ -1,11 +1,11 @@
 import React, {Suspense} from "react";
 import css from "../styles/PlaygroundThree.module.css";
 import { Canvas } from "@react-three/fiber";
-import Floor from "@components/Floor";
-import Box from "@components/Box";
-import LightBulb from "@components/LightBulb";
-import OrbitControls from "@components/OrbitControls"
-import Draggable from "@components/Draggable"
+import Floor from "@/components/Floor";
+import Box from "@/components/Box";
+import LightBulb from "@/components/LightBulb";
+import OrbitControls from "@/components/OrbitControls"
+import Draggable from "@/components/Draggable"
 
 function playgroundThree() {
   return (
