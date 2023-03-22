@@ -25,7 +25,7 @@ const Navbar = (props: Props): JSX.Element => {
           window.scrollTo(0,0)
         }}>
           <Image src={logoColor} alt="logo" className="w-[15%] md:w-[10%] object-contain rounded-full" />
-          <p className="text-white text-base sm:text-lg font-bold cursor-pointer">dev<span>Hudson</span></p>
+          <p className="text-white text-base sm:text-lg font-bold cursor-pointer">devHudson</p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {

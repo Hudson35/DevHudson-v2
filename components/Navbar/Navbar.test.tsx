@@ -9,9 +9,15 @@ Every test we write generally involves the following steps:
 */
 
 describe("Navbar", () => {
-    test("everything renders correctly", () => {
+    test("nav tag renders", () => {
         render(<Navbar />);
         const navbar = screen.getByRole('navigation');
         expect(navbar).toBeInTheDocument();
+    })
+
+    test("p tag with content devHudson renders", () => {
+        render(<Navbar />);
+        const devHudson = screen.getByText('devHudson');
+        expect(devHudson).toBeInTheDocument();
     })
 })
