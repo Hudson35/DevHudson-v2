@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Link from "next/link";
-import { styles } from '../styles';
-import { navLinks } from '../constants';
-import { menu, close, logoColor } from '../assets';
+import { styles } from '../../styles';
+import { navLinks } from '../../constants';
+import { menu, close, logoColor } from '../../assets';
 import Image from 'next/image';
 
 type Props = {}
