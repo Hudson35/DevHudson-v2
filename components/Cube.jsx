@@ -10,7 +10,7 @@ function Cube() {
 
   const textRef = useRef();
 
-  useFrame(state => (textRef.current.position.x = Math.sin(state.clock.elapsedTime) * 1))
+  useFrame(state => (textRef.current.position.x = Math.sin(state.clock.elapsedTime) * 1.5))
 
   const handleCubeClick = () => {
     setClicked(!clicked);
