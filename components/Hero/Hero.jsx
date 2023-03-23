@@ -1,8 +1,5 @@
 import { motion } from 'framer-motion';
 import { styles } from '../../styles';
-import { ParentComputers } from '../canvas';
-import NoSSRComputers from '@/components/canvas/NoSSRWrapper'
-
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Cube from "@/components/Cube";
