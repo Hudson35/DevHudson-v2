@@ -18,8 +18,9 @@
     "paths": {
       "@/components/*": ["components/*"],
       "@/pages/*": ["pages/*"],
+      "@/public/*": ["public/*"],
     },
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/OrbitControls.jsx", "./jest-setup.js", "jest.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/OrbitControls.jsx", "./jest-setup.js", "jest.config.js", "components/Hero/Hero.jsx", "components/Hero/Hero.test.jsx"],
   "exclude": ["node_modules"]
 }

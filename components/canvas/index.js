@@ -1,6 +1,8 @@
 import EarthCanvas from "./Earth";
 import BallCanvas from "./Ball";
-import ComputersCanvas from "./Computers";
+import ParentComputers from "./ParentComputers";
+import Computers from "./Computers";
+import NoSSRWrapper from "./NoSSRWrapper";
 import StarsCanvas from "./Stars";
 
-export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas };
+export { EarthCanvas, BallCanvas, ParentComputers, Computers, NoSSRWrapper, StarsCanvas };
