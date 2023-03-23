@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
           <div>
             <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className="text-[#915eff]">Hudson</span></h1>
-            <p role="paragraph1" className={`${styles.heroSubText}`}>
+            <p role="paragraph1" className={`${styles.heroHeadText}`}>
               I develop user interfaces, web  applications, and 3D visuals 
             </p>
             <p role="paragraph2" className={`${styles.heroSubOfSubText}`}>
