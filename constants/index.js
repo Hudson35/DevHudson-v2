@@ -1,8 +1,9 @@
+import web from '../public/web.png'
+import backend from '../public/backend.png'
+import mobile from '../public/mobile.png'
+import creator from '../public/creator.png'
+
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
@@ -46,7 +47,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
