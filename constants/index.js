@@ -8,24 +8,24 @@ import tesla from '../public/company/tesla.png'
 import shopify from '../public/company/shopify.png'
 import DDS from '../public/company/diligentDeliverySystemsLogo.png'
 import NeonFlux from '../public/company/hdrlogo.svg'
+import javascript from '../public/technologies/javascript.png'
+import typescript from '../public/technologies/typescript.png'
+import html from '../public/technologies/html.png'
+import css from '../public/technologies/css.png'
+import reactjs from '../public/technologies/reactjs.png'
+import redux from '../public/technologies/redux.png'
+import tailwind from '../public/technologies/tailwind.png'
+import nodejs from '../public/technologies/nodejs.png'
+import mongodb from '../public/technologies/mongodb.png'
+import git from '../public/technologies/git.png'
+import figma from '../public/technologies/figma.png'
+import docker from '../public/technologies/docker.png'
+import threejs from '../public/technologies/threejs.svg'
 
 import {
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
