@@ -220,6 +220,7 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/",
+      liveUrl: "vercel.com"
     },
     {
       name: "Job IT",
@@ -241,6 +242,7 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
+      liveUrl: "vercel.com"
     },
     {
       name: "Trip Guide",
@@ -262,6 +264,7 @@ import {
       ],
       image: tripguide,
       source_code_link: "https://github.com/",
+      liveUrl: "https://vercel.com/home"
     },
   ];
   
