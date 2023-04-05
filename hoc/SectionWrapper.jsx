@@ -13,9 +13,9 @@ function HOC() {
         viewport={{once: true, amount: 0.25}}
         className="px-6 sm:px-16 py-10 sm:py-16 max-w-7xl mx-auto relative z-0"
     >
-        {/* <span className="hash-span" id={idName}>
+        <span className="hash-span" id={idName}>
           &nbsp;
-        </span> */}
+        </span>
         <Component />
     </motion.section>
   )

@@ -18,8 +18,8 @@ const Navbar = (props: Props): JSX.Element => {
   const [toggle, setToggle] = useState<boolean>(false);
 
   return (
-    <nav className={`w-full flex items-center py-5 sm:px-16 px-6 top-0 z-20 bg-primary border border-red-500`}>
-      <div className="w-full lg:w-[80%] flex justify-center items-center max-w-7xl lg:mx-auto border-2 border-blue-900">
+    <nav className={`w-full flex items-center py-5 sm:px-16 px-6 top-0 z-20 bg-primary`}>
+      <div className="w-full lg:w-[80%] flex justify-center items-center max-w-7xl lg:mx-auto">
         <Link href="/" className="flex items-center gap-2 mr-auto" onClick={() => {
           setActive("");
           window.scrollTo(0,0)

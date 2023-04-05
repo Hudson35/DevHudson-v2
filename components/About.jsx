@@ -35,8 +35,8 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <section id="about" className="w-full sm:px-16 px-6 mt-2 border-2 border-green-500">
-        <div className="w-full lg:w-[80%] max-w-7xl mx-auto border-2 border-indigo-300">
+      <section id="about" className="w-full sm:px-16 px-6 mt-2">
+        <div className="w-full lg:w-[80%] max-w-7xl mx-auto">
 
           <motion.div variants={textVariant()}>
             <p className="text-sm sm:text-lg text-secondary uppercase tracking-wider">Introduction</p>

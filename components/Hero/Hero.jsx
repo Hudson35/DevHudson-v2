@@ -6,11 +6,11 @@ import Cube from "@/components/Cube";
 
 const Hero = () => {
   return (
-    <section role="region" className="w-full px-6 sm:px-16 border-2 border-purple-600 mt-2">      
+    <section role="region" className="w-full px-6 sm:px-16 mt-2">      
       <div className="w-full lg:w-[80%] max-w-7xl flex flex-col md:grid grid-cols-2 mx-auto">
         
-        <div className="inset-0 top-32 flex flex-row items-center gap-5 border-2 border-green-600">
-          <div className="flex flex-col justify-center items-center mt-5 border-2 border-blue-600">
+        <div className="inset-0 top-32 flex flex-row items-center gap-5">
+          <div className="flex flex-col justify-center items-center mt-5">
             <div className="w-5 h-5 rounded-full bg-[#915eff]" />
             <div className="w-1 sm:h-80 h-40 violet-gradient" />
           </div>
@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="border-2 border-blue-500">
+        <div className="">
           <Canvas
             camera={{ fov: 25, position: [3, 2.3, 3]}}
           >
@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="lg:w-[80%] max-w-7xl mx-auto hidden md:flex border-2 border-red-600 ">
+      <div className="lg:w-[80%] max-w-7xl mx-auto hidden md:flex">
         <div className="w-full flex bottom-32 xs:bottom-10 justify-center items-center">
           <a href="#about">
             <div className="w-8 h-16 rounded-3xl border-4 border-secondary flex justify-center items-start p-2 cursor-pointer">
