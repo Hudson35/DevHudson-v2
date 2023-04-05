@@ -22,6 +22,10 @@ import figma from '../public/technologies/figma.png'
 import docker from '../public/technologies/docker.png'
 import threejs from '../public/technologies/threejs.svg'
 
+import camify from '../public/projects/campify.jpg'
+import mazeRunner from '../public/projects/maze-runner.jpg'
+import naphtha from '../public/projects/naphtha-oil.jpg'
+
 import {
     carrent,
     jobit,
@@ -53,11 +57,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Engineer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "TypeScript Enthusiast",
       icon: creator,
     },
   ];
@@ -119,29 +123,30 @@ import {
   
   const experiences = [
     {
-      title: "React.js Software Engineer",
+      title: "Software Engineer",
       company_name: "Diligent Delivery Systems",
       icon: DDS,
       iconBg: "#383E56",
       date: "October 2020 - May 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed an intuitive and efficient search tool for internal employees using React. The tool empowers users toselect a specific database field, operator, search value, and execute a query on the database, yielding relevant and accurate results.",
+        "As a proficient React developer, I incorporated a suite of dynamic UI tables with advanced functionality to manipulate column attributes and execute seamless data search operations within each table.",
+        "Contributed to the development of a client portal, responsible for 35% of the product. This intuitive platform streamlined client-shipment interaction, providing users with the ability to perform essential shipping actions through an intuitive interface.",
+        "Revamped numerous internal software form pages utilizing the Formik library, alongside custom React hooks, and industry-grade validation tools, such as yup/custom validation.",
+        "Played a key role in designing and developing 50% of the UI for a healthcare ordering portal. This user-friendly interface enabled clients to submit special health orders streamlining the process and making it more efficient."
       ],
     },
     {
-      title: "TypeScript Software Engineer",
+      title: "Software Engineer",
       company_name: "Neon Flux",
       icon: NeonFlux,
       iconBg: "#383E56",
       date: "May 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Responsible for implementing features for a drag-and-drop webpage builder/editor using Craft.js, which included building components, configuring page layouts, and handling data storage.",
+        "Built multiple product landing pages for clients using modern technologies such as Tailwind CSS, Next.js, Swiper.js",
+        "Maintained and improved an existing codebase by refactoring large files into smaller reusable components and implementing new functions, contributing to the overall success of the product.",
+        "Helped transition the application from REST API to GraphQL API to ensure a defined contract between the FE and BE teams. Collaborated with the backend team to define the GraphQL schema.",
       ],
     },
     // {
@@ -201,12 +206,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Campify",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Campify is for the camping enthusiast who want to share where they have stayed around the World, and learn about new campground gems. This is a Fullstack JavaScript application. I used Node.js, Express.js, EJS, Bootstrap and others. Please go explore the campgrounds!",
       tags: [
         {
-          name: "react",
+          name: "nodeJS",
           color: "blue-text-gradient",
         },
         {
@@ -214,57 +219,57 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "expressJS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-      liveUrl: "vercel.com"
+      image: camify,
+      source_code_link: "https://github.com/Hudson35/Campify",
+      liveUrl: "#"
     },
     {
-      name: "Job IT",
+      name: "Maze Runner",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        'The Maze Runner game was built using HTML, CSS and JavaScript. I used the Canvas API - a Web API - along with Matter.js - 2D physics engine - to create this application and build the maze. Launch the game to see if you can solve the maze! To play press these keys to move: "a" "w" "s" "d".',
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "canvas API",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "matterJS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      liveUrl: "vercel.com"
+      image: mazeRunner,
+      source_code_link: "https://github.com/Hudson35/Maze-Runner",
+      liveUrl: "https://maze-runner-hudsonbirdsong.vercel.app/"
     },
     {
-      name: "Trip Guide",
+      name: "Naphtha Oil",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Naphtha Oil is a fullstack application built with JavaScript, Node.js, Express.js, EJS and Semantic UI. Overview: After a user signs up, they can input the amount of Gallons needed, specify the deliver date and then recieve a quote back before placing the order.",
       tags: [
         {
-          name: "nextjs",
+          name: "semanticUI",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "expressJS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "nodeJS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      liveUrl: "https://vercel.com/home"
+      image: naphtha,
+      source_code_link: "https://github.com/Hudson35/Naphtha-Oil",
+      liveUrl: "#"
     },
   ];
   
